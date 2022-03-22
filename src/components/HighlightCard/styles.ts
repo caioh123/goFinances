@@ -7,16 +7,14 @@ interface TypeProps {
 }
 
 export const Container = styled.View<TypeProps>`
-  background-color: ${({ theme, type }) =>
-    type === "total" ? theme.colors.secondary : theme.colors.background};
-  };
-
   width: ${RFValue(300)}px;
   border-radius: ${RFValue(5)}px;
   padding: 19px 23px;
   padding-bottom: ${RFValue(42)}px;
 
   margin-right: 16px;
+  background-color: ${({ theme, type }) =>
+    type === "total" ? theme.colors.secondary : theme.colors.shape};
 `;
 
 export const Header = styled.View`
