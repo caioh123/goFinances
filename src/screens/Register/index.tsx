@@ -12,7 +12,7 @@ export function Register() {
       </Header>
       <Form>
         <Input placeholder="Nome" />
-        <Input placeholder="Preço" />
+        <Input placeholder="Preaço" />
         <Button title="a" />
       </Form>
     </Container>
